@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<title>Subway Surf</title>
+    <link rel="stylesheet" href="../webgl.css" type="text/css">
+  	<style>
+  	canvas{
+  		float: left;
+  	}
+  	.btn-group{
+  		margin-left: 200px;
+  		margin-top: 100px;
+  	}
+  	</style>
+  </head>
+
+  <body>
+    <canvas id="glcanvas" width="640" height="480"></canvas>
+  	<div class="container">
+    	<div class="jumbotron">
+    		<h1 class="display-4" id="sc"></h1>
+    	</div>
+   		<div class="btn-group" role="group" >
+			<button type="button" onclick="grayfn()" class="btn btn-dark">
+				Grayscale?
+			</button>
+			<button type="button" onclick="texture()" class="btn btn-success">
+				Textured?
+			</button>
+		</div>
+    </div>
+  </body>
+
+  <script src="./gl-matrix.js"></script>
+  <script src="./bg.js"></script> 
+  <script src="./end.js"></script> 
+  <script src="./ground.js"></script>
+  <script src="./track.js"></script>
+  <script src="./surfer.js"></script>
+  <script src="./police.js"></script>
+  <script src="./wall.js"></script>
+  <script src="./coin.js"></script>
+  <script src="./downboard.js"></script>
+  <script src="./upboard.js"></script>
+  <script src="./cones.js"></script>
+  <script src="./fly.js"></script>
+  <script src="./boots.js"></script>
+  <script src="./magnet.js"></script>
+  <script src="./train.js"></script>
+  <script src="./sun.js"></script>
+  <script src="./game.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>   
+</html>
