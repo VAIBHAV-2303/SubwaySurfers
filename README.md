@@ -16,9 +16,9 @@ This game is a replica of Subway Surfers and developed using only WebGl. The cod
 
 ## To Run
 
-    ```console
-	bar@foo:~$ firefox index.html
-	```
+```bash
+bar@foo:~$ firefox index.html
+```
 
 ## Author
 
