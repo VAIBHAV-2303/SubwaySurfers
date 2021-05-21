@@ -42,17 +42,17 @@ function main() {
     alert('Unable to initialize WebGL. Your browser or machine may not support it.');
     return;
   }
-  groundtexture = loadTexture(gl, 'ground.jpg');
-  walltexture = loadTexture(gl, 'wall.jpg');
-  woodtexture = loadTexture(gl, 'wood.jpg');
-  metaltexture = loadTexture(gl, 'tracks.jpg');
-  traintexture = loadTexture(gl, 'train.jpg');
-  skytexture = loadTexture(gl, 'sky.jpg');
-  redtexture = loadTexture(gl, 'red.jpeg');
-  bluetexture = loadTexture(gl, 'blue.jpg');
-  goldtexture = loadTexture(gl, 'gold.jpg');
-  downtexture = loadTexture(gl, 'down.jpg')
-  endtexture = loadTexture(gl, 'end.jpg')
+  groundtexture = loadTexture(gl, '../static/ground.jpg');
+  walltexture = loadTexture(gl, '../static/wall.jpg');
+  woodtexture = loadTexture(gl, '../static/wood.jpg');
+  metaltexture = loadTexture(gl, '../static/tracks.jpg');
+  traintexture = loadTexture(gl, '../static/train.jpg');
+  skytexture = loadTexture(gl, '../static/sky.jpg');
+  redtexture = loadTexture(gl, '../static/red.jpeg');
+  bluetexture = loadTexture(gl, '../static/blue.jpg');
+  goldtexture = loadTexture(gl, '../static/gold.jpg');
+  downtexture = loadTexture(gl, '../static/down.jpg')
+  endtexture = loadTexture(gl, '../static/end.jpg')
   
   initBuffers(gl);
 
