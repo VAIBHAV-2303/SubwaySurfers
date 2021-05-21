@@ -17,8 +17,9 @@ This game is a replica of Subway Surfers and developed using only WebGl. The cod
 ## To Run
 
 ```bash
-bar@foo:~$ firefox index.html
+bar@foo:~/SubwaySurfers$ python3 -m http.server 8000
 ```
+Then open http://0.0.0.0:8000/ in your browser.
 
 ## Author
 
